@@ -1,8 +1,8 @@
 <?php 
      namespace pizzamario;
      class CartePizza{
-          protected $carte = array();
-          protected $carteName;
+          public $carte = array();
+          public $carteName;
 
           public function __construct($nom){
                $this->carteName = $nom;
@@ -26,6 +26,6 @@
      
      }
 
-
+//ou bien faire des gets et set
     
 ?>
