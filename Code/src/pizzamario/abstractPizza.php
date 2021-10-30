@@ -2,14 +2,14 @@
 namespace pizzamario;
 abstract class abstractPizza{
 
-    public $size;                     // obligation
-    public $name;                        // obligatoire
-    protected $dough;                   // obligatoire
-    protected $sauce;                   // obligatoire
+    public $size;                        
+    public $name;                       
+    protected $dough;                   
+    protected $sauce;                   
     protected $cheese = [];                  // optionnel
-    protected $vegetables = [];         // optionnel
-    protected $meats = [];              //optionnel
-    public $status;                  //remplis par le constructeur. Différent etat de préparation : 'waiting', 'cooking', 'done'
+    protected $vegetables = [];              // optionnel
+    protected $meats = [];                    //optionnel
+    public $status;                  //remplis par le constructeur. Différent etat de préparation : 'waiting', 'cooking', 'ready'
 
     /**
     * Création d'objet pizza
@@ -22,7 +22,7 @@ abstract class abstractPizza{
          $this->cheese = $cheese;
          $this->vegetables = $vegetables;
          $this->meats = $meats;
-         $this->status = 'waiting';
+         $this->status = 'waiting';     //mettre le status à waiting dès la créaction de la pizza
     }
     /**
      * Affiche la liste des frommages composant la pizza

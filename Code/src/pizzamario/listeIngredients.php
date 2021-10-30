@@ -1,5 +1,6 @@
 <?php
 namespace pizzamario;
+//display la liste des ingrédients disponible pour customiser une pizza
 class listeIngredients{
      /**                         
      * La liste des pâtes disponible

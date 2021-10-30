@@ -3,7 +3,7 @@
 namespace pizzamario;
 
 use pizzamario\abstractPizza;
-
+     //pizza custom est une pizza personnalisé par le client et hérite de abstractPizza
 class pizzaCustom extends abstractPizza
 {
      public $price;

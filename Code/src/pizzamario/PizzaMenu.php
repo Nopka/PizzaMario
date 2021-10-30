@@ -1,7 +1,7 @@
 <?php
 
 namespace pizzamario;
-
+//pizzaMenu sont les pizza apparenant à la carte de MarioPizza
 class PizzaMenu extends abstractPizza
 {
 

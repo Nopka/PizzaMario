@@ -7,7 +7,6 @@ use pizzamario\PizzaMenu;
 use pizzamario\listeIngredients;
 use pizzamario\chefOrder;
 
-
 /**
  * Autoloader
  */
@@ -192,7 +191,7 @@ $chefOrder2->notify();
 $chefOrder2->notified();
 
 
-//mise à jour du status de la commande
+//mise à jour du status de la commande et notifier le client que la pizza est prête
 echo ("\n\t\033[32m===> Changement du status de la commande à 'ready'.\n\033[0m\r");
 $pizzacustom1->status = "ready";
 $pizzacustom2->status = "ready";

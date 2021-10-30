@@ -22,7 +22,7 @@
           }
 
           /**
-           * Modifier les détails d'une commande et sauvegarder le timeStamp de la modification
+           * Modifier les détails d'une commande
            */
           public function update_order($updated_detail = []){
                $this->order_details = $updated_detail;
@@ -36,16 +36,6 @@
                     return ("\nVotre commande est prête :) Veuillez vous rapprocher du comptoire afin de la récuperer\n");
                }
           }
-          // /**
-          //  * Fonction qui permet de consutler l'état d'avancement de la commande en détail
-          //  */
-          // public function check_status(){
-          //      $tab_status = [];
-          //      foreach ($this->order_details as $pizza) {
-          //           $tab_status = $pizza->status;
-          //      }
-          //      return $tab_status;
-          // }
 
           function __toString()
           {

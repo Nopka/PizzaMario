@@ -1,7 +1,8 @@
 <?php
 namespace pizzamario;
 class chefOrder{
-    public $idChef;
+    //un chef est assigné à une commande
+    public $idChef;         
     public $pizzaOrder;
     public function __construct($id,$pizzaOrder)
     {
@@ -9,11 +10,11 @@ class chefOrder{
         $this->pizzaOrder = $pizzaOrder;
     }
 
-    public function notify(){
+    public function notify(){       //notifier le chef qu'il doit commencer à préparer la commande
         $getCooking = true;
     }
 
-    public function notified(){
+    public function notified(){     //répose du chef
         echo ("\n\t\033[32m===> Le chef est notifié et vas procéder à la préparation de la commande\033[0m\r");
     }
 }
