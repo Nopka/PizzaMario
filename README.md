@@ -22,4 +22,4 @@ le 2éme : le client B choisi de personnaliser 2 pizza au sein d'une même comma
 **un autoloader est utilisé pour charger les classes(modèle) qui se trouve dans le 
 namespace pizzamario
 
-**Executable depuis le terminal.
+**Executer index.php depuis le terminal.
