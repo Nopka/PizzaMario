@@ -15,7 +15,7 @@ Et les classes instaciable :
 - "Orders" : un objet "order" a.k.a contient quelques détails des pizza selectionné ainsi que le prix du tout et la date de commande
 - "chefOrder" : un chef est assigné à une commande.
 
-**2 scénario sont representé dans le code
+**2 scénario sont representés dans le code
 le 1er : le client A commande une pizza depuis la carte des pizza, choisi d'enlever l'ingrédient ognon et consulte l'avancement de sa pizza.
 le 2éme : le client B choisi de personnaliser 2 pizza au sein d'une même commande.
 
